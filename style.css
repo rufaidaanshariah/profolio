@@ -115,25 +115,27 @@ h2 {
 	opacity: 1;
 }
 
-.slide-container {
+
+
+slide {
   position: relative;
-  width: 100%;
+  width: 100%; /* Matches slider width */
 }
 
-.slide-container img {
-  width: 100%;
+.slide img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
-.text-overlay {
+.overlay-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  bottom: 20px; /* Positions text near the bottom */
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.6); /* Optional background for readability */
   color: white;
-  background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for readability */
-  padding: 10px 20px;
-  text-align: center;
+  padding: 10px;
+  z-index: 10;
 }
 
 
