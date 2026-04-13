@@ -116,9 +116,15 @@ h2 {
 }
 
 
-.bottom-left {
+.text-overlay {
   position: absolute;
-  bottom: 8px;
-  left: 16px;
-	color: #ffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for readability */
+  padding: 10px 20px;
+  text-align: center;
+}
+
 
