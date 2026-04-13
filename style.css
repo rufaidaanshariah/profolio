@@ -115,6 +115,15 @@ h2 {
 	opacity: 1;
 }
 
+.slide-container {
+  position: relative;
+  width: 100%;
+}
+
+.slide-container img {
+  width: 100%;
+  display: block;
+}
 
 .text-overlay {
   position: absolute;
