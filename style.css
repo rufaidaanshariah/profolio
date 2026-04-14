@@ -117,25 +117,4 @@ h2 {
 
 
 
-slide {
-  position: relative;
-  width: 100%; /* Matches slider width */
-}
-
-.slide img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay-text {
-  position: absolute;
-  bottom: 20px; /* Positions text near the bottom */
-  left: 20px;
-  background-color: rgba(0, 0, 0, 0.6); /* Optional background for readability */
-  color: white;
-  padding: 10px;
-  z-index: 10;
-}
-
 
