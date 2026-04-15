@@ -116,5 +116,23 @@ h2 {
 }
 
 
+/* Container for each individual slide */
+.mySlides {
+  position: relative; 
+  display: none; /* Controlled by your slideshow logic */
+}
+
+/* Style for the text overlay */
+.text-overlay {
+  position: absolute;
+  top: 50%;         /* Center vertically */
+  left: 50%;        /* Center horizontally */
+  transform: translate(-50%, -50%); /* Precise centering */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+}
 
 
